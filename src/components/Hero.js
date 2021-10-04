@@ -26,14 +26,14 @@ function Hero() {
                 </div>
             </div>
             </Fade>
-            <Fade bottom>
-                <div className="menu-btn">
-                <button>
-                    <a href="#menu">Menu</a>
-                    <img src={down} alt="" />
-                </button>
-            </div>
-            </Fade>
+//             <Fade bottom>
+//                 <div className="menu-btn">
+//                 <button>
+//                     <a href="#menu">Menu</a>
+//                     <img src={down} alt="" />
+//                 </button>
+//             </div>
+//             </Fade>
         </HeroStyled>
         </>
     )
