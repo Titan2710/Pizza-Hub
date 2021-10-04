@@ -1,6 +1,6 @@
 import React from 'react';
 import GlobalStyles from './globalStyle';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 import Hero from './components/Hero';
 import Products from './components/Products';
 import About from './components/About';

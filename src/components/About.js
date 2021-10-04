@@ -18,9 +18,7 @@ function About() {
             industry experience to create this exciting dining offer.
                 </h2>
                 <div className="line"></div>
-                 <p>We believe in creating interesting and unique places to enjoy
-            our simple and great tasting “Real Italian” food. We’ll make sure you feel like you’re in our 
-            home and ready for some of our dgreat, simple foo.</p>
+                 <p></p>
             </div>
             <div className="right-side">
               
