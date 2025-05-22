@@ -10,9 +10,26 @@ function Contact() {
     return (
         <ContactStyled>
             <Fade left>
-                <div className="left-side">
-                <img src={gif} alt='gif' />
-            </div>
+              <div
+                className="left-side"
+                style={{
+                  overflow: 'hidden',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                }}
+              >
+                <img
+                  src={gif}
+                  alt="gif"
+                  style={{
+                    maxWidth: '100%',
+                    height: 'auto',
+                    display: 'block',
+                    objectFit: 'contain',
+                  }}
+                />
+              </div>
             </Fade>
             <Fade right>
                 <div className="right-side">
