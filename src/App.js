@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import GlobalStyles from './globalStyle';
 import {BrowserRouter as Router} from 'react-router-dom';
 import Hero from './components/Hero';
@@ -8,6 +9,10 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Faq from './components/Faq';
 
+useEffect(() => {
+  document.body.style.overflowX = 'hidden';
+  document.documentElement.style.overflowX = 'hidden';
+}, []);
 
 function App() {
   return (
