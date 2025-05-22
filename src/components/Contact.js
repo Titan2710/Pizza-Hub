@@ -9,28 +9,31 @@ import {FaTwitter} from 'react-icons/fa'
 function Contact() {
     return (
         <ContactStyled>
-            <Fade left>
-              <div
-                className="left-side"
-                style={{
-                  overflow: 'hidden',
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                }}
-              >
-                <img
-                  src={gif}
-                  alt="gif"
-                  style={{
-                    maxWidth: '100%',
-                    height: 'auto',
-                    display: 'block',
-                    objectFit: 'contain',
-                  }}
-                />
-              </div>
-            </Fade>
+        <Fade left>
+          <div
+            className="left-side"
+            style={{
+              overflow: 'hidden',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              width: '100%',
+              maxWidth: '100vw',
+              boxSizing: 'border-box',
+            }}
+          >
+            <img
+              src={gif}
+              alt="gif"
+              style={{
+                maxWidth: '100%',
+                height: 'auto',
+                display: 'block',
+                objectFit: 'contain',
+              }}
+            />
+          </div>
+        </Fade>
             <Fade right>
                 <div className="right-side">
                     <div className="heading-con">
@@ -73,6 +76,9 @@ const ContactStyled = styled.section`
     justify-content: center;
     align-items: center;
     padding: 3rem;
+    width: '100vw',
+    overflowX: 'hidden',
+    position: 'relative',
     @media screen and (max-width: 1100px){
         grid-template-columns: repeat(1, 1fr);
         .heading-con {
