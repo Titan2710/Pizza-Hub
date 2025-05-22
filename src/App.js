@@ -9,12 +9,15 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Faq from './components/Faq';
 
-useEffect(() => {
+
+
+function App() {
+
+  useEffect(() => {
   document.body.style.overflowX = 'hidden';
   document.documentElement.style.overflowX = 'hidden';
 }, []);
-
-function App() {
+  
   return (
     <Router >
       <GlobalStyles />
